@@ -8,7 +8,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Retangulo ret = new Retangulo();
-            Console.WriteLine("Entre com a largura e altura do retângulo:");
+            Console.WriteLine("Entre com a largura e altura do retângulo: ");
             ret.altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             ret.largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
